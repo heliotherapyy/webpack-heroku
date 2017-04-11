@@ -1,8 +1,28 @@
 <html>
   <head>
     <meta charset="utf-8">
+
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase-database.js"></script>
+    <script src="//connect.facebook.net/en_US/sdk.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600" rel="stylesheet">
   </head>
   <body>
+    <!-- Facebook API Setup -->
+    <script>
+      FB.init({
+        appId      : 1088733461254279,
+        xfbml      : true,
+        version    : 'v2.8'
+      });
+      // FB.AppEvents.logPageView();
+      console.log("----Facebook SDK installed");
+    </script>
     <div id="main"></div>
     <script type="text/javascript" src="/public/bundle.js"></script>
   </body>

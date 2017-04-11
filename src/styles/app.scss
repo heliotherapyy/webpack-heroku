@@ -1,3 +1,171 @@
 h1 {
   color: blue;
 }
+
+$dosis: 'Dosis', sans-serif;
+$dark-blue: #335E77;
+$light-blue: #BBCBCB;
+
+/* Pen-specific styles */
+* {
+  box-sizing: border-box;
+}
+
+#fb-root {
+  display: none;
+}
+
+html, body, section, div {
+  // height: 100%;
+}
+
+body {
+  color: $light-blue;
+  font-family: $dosis;
+  font-size: 1.25rem;
+  line-height: 150%;
+  margin: 0px;
+  padding: 0px;
+  background: $dark-blue;
+  // text-align: center;
+  text-shadow: 0 2px 2px #b6701e;
+
+
+}
+
+.Landing{
+//background-image: url("http://blog.hdwallsource.com/wp-content/uploads/2016/04/telescope-desktop-hd-wallpaper-51772-53477-hd-wallpapers.jpg");
+width: 100%;
+height: 100%;
+}
+
+#top{
+  text-align: center;
+  font-size: 4rem;
+  padding: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#logo_img{
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 25%;
+}
+#platforms{
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 2rem;
+    display: block
+}
+.checkbox{
+    display: block;
+    font-size: 50px;
+}
+h1 {
+  text-align: center;
+}
+
+#img {
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+}
+
+#image1 {
+  object-fit: cover;
+}
+
+// Infographics
+#labels {
+  height: 500px;
+  width: 100%
+}
+
+#labels svg {
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: 5%;
+}
+
+#labels svg:nth-child(2) {
+  transform: translate(0, 30px);
+}
+
+text:nth-child(2) {
+}
+
+// Infographics
+#labels {
+  height: 500px;
+  width: 100%
+}
+
+#labels svg {
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: 5%;
+}
+
+#labels svg:nth-child(2) {
+  transform: translate(0, 30px);
+}
+
+iframe {
+  left: 50%;
+  margin-left: -175px;
+  position: relative;
+  width: 350px;
+  height: 400px;
+}
+
+section {
+  width: 100%;
+}
+
+article {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  padding: 1rem;
+  // text-align: center;
+  transform: translate(-50%, 0%);
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+#left-half {
+  float: left;
+  width: 50%;
+}
+#right-half {
+  float: left;
+  width: 50%;
+}
+
+/* Metrics List */
+#content1, #content2 {
+  position: relative;
+  left: 150px;
+}
+
+path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 2s ease forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

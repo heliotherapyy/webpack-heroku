@@ -1,10 +1,10 @@
 {
-  "name": "webpack-heroku-boilerplate",
+  "name": "Teleos",
   "version": "1.0.0",
-  "description": "Simplest Heroku starter kit for React apps.",
+  "description": "Video Analytics Aggregation Platform",
   "main": "./src/entry.js",
   "homepage": "https://github.com/wallacyyy/webpack-heroku",
-  "author": "Leonardo Couto",
+  "author": "Teleos Development Team",
   "license": "MIT",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
@@ -24,7 +24,9 @@
   "dependencies": {
     "express": "^4.13.4",
     "react": "^0.14.8",
-    "react-dom": "^0.14.8"
+    "react-dom": "^0.14.8",
+    "react-progress-label": "^1.2.1",
+    "react-tooltip": "^3.2.7"
   },
   "devDependencies": {
     "babel": "^6.5.2",
@@ -39,6 +41,7 @@
     "node-sass": "^3.4.2",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
+    "react-hot-loader": "^3.0.0-beta.6",
     "url-loader": "^0.5.6",
     "webpack": "^1.12.14",
     "cross-env": "^3.1.3",
